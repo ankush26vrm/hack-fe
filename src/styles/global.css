@@ -149,24 +149,24 @@ th {
   min-width: 72px;
   padding: 7px 10px;
   border-radius: 999px;
-  font-weight: 800;
+  font-weight: 500;
   letter-spacing: 0.2px;
   border: 1px solid rgba(15, 23, 42, 0.14);
 }
 
 .badge--high {
   background: rgba(239, 68, 68, 0.18);
-  color: #ffb3b3;
+  color: #f17777;
 }
 
 .badge--mid {
   background: rgba(245, 158, 11, 0.18);
-  color: #ffd7a1;
+  color: #e9a348;
 }
 
 .badge--low {
   background: rgba(34, 197, 94, 0.18);
-  color: #b9f6ca;
+  color: #36de65;
 }
 
 .tooltipWrap {
