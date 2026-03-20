@@ -73,38 +73,6 @@ export default function ReportsPage() {
 
         <div className="spacer" />
 
-        <div className="row">
-          <span className="pill">Success Probability</span>
-          <select
-            className="input select"
-            value={successProbability}
-            onChange={(e) => setSuccessProbability(e.target.value as any)}
-            disabled={loading}
-          >
-            {LEVELS.map((l) => (
-              <option key={l.id} value={l.id}>
-                {l.label}
-              </option>
-            ))}
-          </select>
-
-          <span className="pill">Return Probability</span>
-          <select
-            className="input select"
-            value={returnProbability}
-            onChange={(e) => setReturnProbability(e.target.value as any)}
-            disabled={loading}
-          >
-            {LEVELS.map((l) => (
-              <option key={l.id} value={l.id}>
-                {l.label}
-              </option>
-            ))}
-          </select>
-        </div>
-
-        <div className="spacer" />
-
         <SmartTable
           table={uploadTable}
           selectable

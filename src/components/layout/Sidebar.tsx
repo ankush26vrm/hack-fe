@@ -1,5 +1,6 @@
 import React, { useMemo } from "react";
 import { NavLink } from "react-router-dom";
+import Brand from "./Brand";
 
 type NavItem = {
   to: string;
@@ -18,6 +19,7 @@ export default function Sidebar() {
 
   return (
     <aside className="sidebar">
+      <Brand />
       <div className="sidebarSection">
         {items.map((it) => (
           <NavLink
